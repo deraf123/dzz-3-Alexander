@@ -1,0 +1,464 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 150%;
+   color: rgba(0, 0, 0, 0.6);
+   background-color: #fff;
+}
+
+.conteiner {
+   max-width: 1155px;
+   margin: 0px auto;
+   padding: 0px 15px;
+}
+
+.fs {
+   background-color: rgba(242, 206, 218, 0.3) ;
+}
+
+      /* Menu 
+--------------------------*/
+
+header.menu{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+a.menu {
+   margin: 39px;
+   text-decoration: none;
+   text-align: justify;
+   font-size: 16px;
+   color: rgba(0, 0, 0, 0.6);
+}
+
+.btn-buy {
+   width: 165px;
+   height: 49px;
+
+   margin-top: 35px;
+
+   background: #D23166;
+   border-radius: 5px;
+}
+
+.text-btn {
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 22px;
+
+   color: #FAFAFA;
+}
+
+      /* Menu 
+--------------------------*/
+
+      /* Main
+--------------------------*/
+
+.main {
+   display: flex;
+}
+
+.content {
+   max-width: 60%;
+}
+
+.text-fs {
+   margin-top:195px ;
+   color: rgba(15, 1, 1, 1);
+
+   font-size: 14px;
+}
+
+h1 {
+   max-width: 590px;
+   font-size: 57.33px;
+   line-height: 120.5%;
+
+   color: rgba(15, 1, 1, 1);
+   margin-bottom: 35px;
+}
+
+span.title{
+   color: rgba(210, 49, 102, 1);
+}
+
+.subtitle-fs{
+   font-size: 18px;
+   margin-bottom: 50px;
+   max-width: 468px;
+}
+
+div.img {
+   position: relative;
+   max-width: 40%;
+
+}
+.wave {
+   position: absolute;
+   top: 120px;
+   left: -160px;
+   z-index: 1;
+}
+
+.Ellipse-pink{
+   position: absolute;
+   top: 190px;
+   left: 100px;
+
+}
+
+.Ellipse19{
+   position: relative;
+   top: 3px;
+   right: -160px;
+}
+      /* Main
+--------------------------*/
+
+      /*Icon
+--------------------------*/
+.ts {
+   max-width: 1155px;
+   margin: 0px auto;
+   padding: 0px 15px;
+}
+
+h3.title-icon{
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 28px;
+}
+
+.menu-icon {
+   max-width: 1117px;
+   height: 200px;
+   display: flex;
+   margin: 105px 0px;
+   justify-content: space-around;
+   
+}
+
+.icon {
+   max-width: 250px;
+   max-height: 200px;
+   text-align: center;
+   border: 1px solid rgba(0, 0, 0, 0,03);
+   background: #FFFFFF;
+   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+   border-radius: 7px; 
+}
+
+.icon-text {
+   font-size: 14px;
+   line-height: 19px;
+}
+
+.img-icon {
+   margin-top: 33px;
+}
+
+
+      /*Icon
+--------------------------*/
+
+/* ice-cream-balls
+--------------------------*/
+
+h2 {
+   max-width: 349px;;
+   margin-top: 140px;
+   font-weight: 600;
+   font-size: 44.2px;
+   line-height: 49px;
+   
+   color: rgba(21, 1, 1, 1);
+}
+
+.BrownSugar {
+   max-width: 442px;
+}
+
+.ice-cream-balls {
+   position: relative;
+   left: 61px;
+   top: -151px;
+}
+
+.Ellipse{
+   position: relative;
+   left: 204px;
+   top: 464px;
+}
+
+
+
+/* ice-cream-balls
+--------------------------*/
+
+
+/* Product 
+-------------------------*/
+.menu-product{
+   max-width: 1000px;
+   max-height: 23px;
+   display: flex;
+
+}
+
+h2.title-menu {
+   font-weight: 600;
+   font-size: 44.2px;
+   line-height: 61px;
+   margin: 137px auto 64px auto;
+   text-align: center;
+}
+
+.nav-product{
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+a.menu-product {
+   margin: 29px;
+   text-decoration: none;
+   text-align: justify;
+   font-size: 16px;
+   color: rgba(0, 0, 0, 0.6);
+}
+
+.main-about{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.content-about{
+   max-width: 40%;
+}
+
+.img-about{
+   max-width: 60%;
+   margin:0px 25px;
+   padding-bottom: 96px;
+}
+
+h2{
+   font-weight: bold;
+   font-size: 26px;
+   line-height: 36px;
+}
+
+.text-price {
+   max-width: 454px;
+}
+
+.price{
+   font-weight: 500;
+   font-size: 26px;
+   line-height: 36px;
+}
+
+/**
+.reviews-header {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   max-width: px;
+}
+
+.reviews-img{
+   display: flex;
+   justify-content: space-around;
+}
+*/
+
+.reviews{
+   margin-top:155px ;
+   margin-right: 100px;
+}
+
+.mobil-screan-title{
+   font-size: 44.2px;
+   line-height: 52px;
+   max-width: 600px;
+}
+
+.mobil-screan-text {
+   margin: 16px 0px 33px 0px;
+}
+
+.mobil-screan{
+   display: flex;
+}
+
+.mobil-img{
+   position: relative;
+}
+
+.mobil-screan-content {
+   padding: 0px 0px 0px 220px;
+}
+
+.mobil-screan-nav{
+   
+   display: flex;
+}
+
+.mobil-screan-nav.mobil-screan-img {
+   margin-top: 41px;
+}
+
+
+h2.title-ask {
+   margin: 191px auto 28px auto; 
+   font-weight: 500;
+   font-size: 44px;
+   line-height: 52px;
+   text-align: center;
+   max-width: 490px;
+}
+
+.btn-ask{
+   margin: 0px auto 149px auto;
+   text-align: center;
+   box-sizing: border-box;
+}
+
+.input-ask {
+   padding: 30px;
+   width: 503px;
+   height: 74px;
+
+   border: 0px;
+   background: #FAFAFA;
+   border-radius: 5px;
+
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 16px;
+   color:  rgba(15, 0, 0, 1);
+
+   border: 0px;
+}
+
+.button-ask{
+   width: 134px;
+   height: 74px;
+
+   background: #D64374;
+   border-radius: 5px;
+
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 23px;
+   color: #FFFFFF;
+}
+
+
+.section-footer{
+   background: #0A0808;
+}
+
+.footer {
+   max-width: 1155px;
+   margin: 0px auto;
+   padding: 0px 15px;
+   display: flex;
+
+   font-size: 12px;
+   line-height: 17px;
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.logo-footer {
+   margin-top: 65px;
+}
+
+.footer-text-logo {
+   max-width: 273px;
+   margin: 9px 0 23px 0px;
+}
+
+.fllow-us {
+   color: rgba(255, 255, 255, 1);
+   margin-bottom: 8px;
+}
+
+.nav-footer {
+   margin: 138px 132px 109px 34px;
+   display: flex;
+   flex-direction: column;
+}
+
+.a-footer {
+   font-size: 12px;
+   line-height: 17px;
+   color: rgba(255, 255, 255, 0.7);
+   margin-top: 10px;
+   text-decoration: none;
+}
+
+.a-footer:hover{
+   color:  rgba(255, 255, 255, 1);
+}
+
+.text-footer {
+   width: 100px;
+   margin: 145px 150px 126px 0px;
+}
+
+.input-footer {
+   width: 263px;
+   height: 55px;
+   border: 2px solid #D64374;
+   box-sizing: border-box;
+   border-radius: 5px;
+   background-color: #0A0808;
+}
+
+.button-footer {
+   width: 125px;
+   height: 55px;
+
+   border: 0px;
+   background: #D23166;
+   border-radius: 5px;
+}
+
+.subtitle-footer{
+   margin: 131px 0px 10px 0px;
+
+   color:rgba(255, 255, 255, 1) ;
+}
+
+.btn-Subscribe{
+   display: flex;
+   margin-bottom: 15px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
